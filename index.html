@@ -1,14 +1,10 @@
----
-theme: jekyll-theme-cayman
-layout: page
-title: David Schulz
-description: My projects
-google_analytics: UA—167240762-1
----
-
 <!DOCTYPE html>
 <html>
 <head>
+  {% include _config.yml %}
+  {% if jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
   <title>David Schulz</title>
 </head>
 <body>
