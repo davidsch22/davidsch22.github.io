@@ -1,5 +1,7 @@
+---
 layout: page
-title: "David Schulz"
+title: David Schulz
 permalink: /index/
+---
 
 # davidschulz.me
