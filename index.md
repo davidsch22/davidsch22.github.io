@@ -1,1 +1,5 @@
+{% if site.google_analytics %}
+{% include analytics.html %}
+{% endif %}
+
 # davidschulz.me
